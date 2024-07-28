@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="text-center my-4">My To-Do List</h1>
+                <div class="input-group mb-3">
+                    <!-- Input for new to-do item -->
+                    <input type="text" id="new-todo" class="form-control" placeholder="Enter a new to-do">
+                    <!-- Button to add new to-do item -->
+                    <div class="input-group-append">
+                        <button id="add-todo" class="btn btn-primary">Add To-Do</button>
+                    </div>
+                </div>
+                <!-- Unordered list to hold to-do items -->
+                <ul id="todo-list" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
